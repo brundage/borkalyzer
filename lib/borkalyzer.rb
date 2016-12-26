@@ -101,7 +101,7 @@ private
                              'tion' => 'shun',
                              'u'  => 'oo'
                            }
-end
+  end
 
 
   def tr_part(lookup:, part:)
