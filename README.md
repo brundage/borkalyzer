@@ -1,6 +1,6 @@
-[![Code Climate](https://codeclimate.com/github/brundage/borkalyzer/badges/gpa.svg)](https://codeclimate.com/github/brundage/borkalyzer)
-
 # Borkalyzer
+
+[![Code Climate](https://codeclimate.com/github/brundage/borkalyzer/badges/gpa.svg)](https://codeclimate.com/github/brundage/borkalyzer)
 
 ## Enstelleshun
 
