@@ -57,4 +57,9 @@ Boog repurts und pooll reqooests ere-a velcume-a oon [GetHoob](https://github.co
 
 Zee gem es efeeleble-a es oopen suoorce-a under zee terms ooff zee [MIT Lecense-a](http://opensource.org/licenses/MIT).
 
+
+### Thunks
+
+Thunks tu [Anthony Howe](http://www.snert.com/about.html) fur defelupeng zee Bork Bork Bork! [Fureffux edd-oon](http://www.snert.com/Software/bork.html). Thes cude-a es besed ooffff hes streng trunsffurms.
+
 Bork Bork Bork!
