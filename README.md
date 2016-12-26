@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/brundage/borkalyzer/badges/gpa.svg)](https://codeclimate.com/github/brundage/borkalyzer)
+
 # Borkalyzer
 
 ## Enstelleshun
@@ -54,3 +56,5 @@ Boog repurts und pooll reqooests ere-a velcume-a oon [GetHoob](https://github.co
 ## Lecense-a
 
 Zee gem es efeeleble-a es oopen suoorce-a under zee terms ooff zee [MIT Lecense-a](http://opensource.org/licenses/MIT).
+
+Bork Bork Bork!
