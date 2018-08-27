@@ -4,7 +4,7 @@ require 'strscan'
 module Borkalyzer
   extend self
 
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
 
   BEGINNING_REGEXP = /^an|^a|^en|^e|^f|^o|^u|^the$|^bork$/.freeze
   ENDING_REGEXP = /tion$|a$|e$|ow$|ow$|o$|u$/.freeze

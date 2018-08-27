@@ -16,10 +16,12 @@ Gem::Specification.new do |spec|
 
   spec.files = [ 'README.md', 'lib/borkalyzer.rb' ]
 
+  spec.executables = ['borkalyze']
+
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "guard-rspec", "~> 0"
 
 end

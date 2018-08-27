@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'borkalyzer'
+
+files = []
+
+OptionParser.new do |opts|
+  opts.banner = "Usege-a: borkalyze [options]"
+  opts.on('-f', '--fele-a [FELE-A]', String, 'Fele-a tu borkalyze') do |f|
+    files << f
+  end
+
+  opts.on_tail('-h', '--help', 'Help') do
+    puts opts
+    exit
+  end
+
+  opts.on_tail('-v', '--ferseun', "Prent zee ferseun") do
+    puts Borkalyzer.name + " ferseun " + Borkalyzer::VERSION
+    exit
+  end
+
+end.parse!
+
+if files
+  files.each do |file|
+    IO.foreach file do |l|
+      puts Borkalyzer.bork l
+    end
+  end
+end
+
+if ARGV.empty?
+  ARGF.each do |a| 
+    puts Borkalyzer.bork a
+  end
+else
+  puts Borkalyzer.bork ARGV.join(" ")
+end
